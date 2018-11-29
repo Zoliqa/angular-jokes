@@ -63,8 +63,4 @@ export class JokeListComponent implements AfterViewInit, AfterContentInit {
     ngAfterContentInit() {
       console.log(`ngAfterContentInit - jokeContentChild is ${ this.jokeContentChild }`);
     }
-
-    test() {
-      
-    }
 }
